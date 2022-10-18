@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 import sys
 from datetime import date
-
 
 def get_train():
     """""
@@ -112,7 +110,7 @@ def main():
             display_trains(selected)
 
         else:
-            print(f"Неизвестная команда {command}", file=sys.stderr)
+            print(f"Неизвестная команда {command}", file = sys.stderr)
 
 
 if __name__ == '__main__':
