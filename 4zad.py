@@ -8,6 +8,7 @@ def get_input():
     D = input("Введите число")
     return D
 
+
 def test_input(b):
     f = b.isdigit()
     if f == True:
@@ -15,9 +16,11 @@ def test_input(b):
     else:
         False
     
+    
 def str_to_int(b):
-    C= int(b)
+    C = int(b)
     return C
+
 
 def print_int(C):
     print(C)
@@ -27,8 +30,10 @@ if __name__ == '__main__':
    
     a = get_input()
     b = test_input(a)
+    
     if b == True:
-        C=str_to_int(a)
+        C = str_to_int(a)
         print_int(C)
+        
     else:
         print("ошибка")
