@@ -5,22 +5,21 @@ from datetime import date
 import math
 
 f = 1
-def cola():
-    
+
+def cola():    
     r = float(input("введите число "))
     global f
     
-    if r==0:
+    if r == 0:
         print(f)
         return
     
     else:
-        f=f*r
+        f = f * r
+        
     print(f)
     cola()    
-
-        
+    
 if __name__ == '__main__':
-   
     cola()
     
